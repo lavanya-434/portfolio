@@ -1,0 +1,70 @@
+ 
+•  Technologies Used: HTML5, CSS3, JavaScript, Bootstrap. 
+•  Improved website accessibility and user experience using modern frontend practices. 
+•  Implemented clean UI design with mobile-friendly responsive layouts. 
+•  Designed and developed a responsive agriculture-based website for showcasing products and services. 
+Nature’s True Harvest Website (Individual Project)                                                                              naturestrueharvest.in 
+ 
+Intern Projects 
+•  Gaining hands-on experience in debugging, version control, API integration, and cross-browser compatibility. 
+management. 
+•  Implementing reusable React.js components and integrating Firebase services for authentication and database 
+•  Collaborating with team members to improve website performance, accessibility, and user experience. 
+•  Working on real-time projects involving frontend UI development and responsive web design. 
+•  Developing responsive and user-friendly web applications using HTML, CSS, JavaScript, Bootstrap, and React.js. 
+Frontend Developer Intern – [Markwave.ai]                                                                                         May 2026 
+ 
+ 
+Internship Experience 
+•  Soft Skills: Team Collaboration, Time Management, Problem Solving. 
+•  Interest: Backend developer 
+•  Tools: VS Code, Git, Windows OS 
+•  Programming Languages: Java 
+•  Database: Oracle SQL, Firebase 
+•  Frontend: HTML5, CSS3, Bootstrap, JavaScript, React.js                                                                                           
+ 
+Technical Skills
+CGPA: 9.2 
+ZPHS Girls, Markapur 
+Board Of Secondary Education                                                                                                                    2018-2019 
+Marks: 765 
+Kamala Junior College, Markapur                                                                                                                                           
+Board Of Intermediate Education                                                                                                              2019-2021  
+CGPA: 7.55 
+Krishna Chaitanya Institute of Technology and Sciences, Markapur  
+Bachelor of Technology (ECE)                                                                                                                      2021-2025 
+Education 
+centric interfaces, optimizing performance, and collaborating with teams to deliver scable web solutions. 
+responsive applications using HTML,CSS,JavaScript,React.js,Bootstrap,Firebase, and SQl.Skilled in developing user-
+Results-driven Frontend Developer with a strong foundation in web development and practical experience in creating 
+ 
+CAREER OBJECTIVE  
+linkedin.com/in/lavanyagunje-a57029301 
+Hyderabad —  lavanyagunje77@gmail.com —  +91-9392510535  
+ 
+GUNJE LAVANYA
+----------------Page (0) Break----------------
+•    HTML,CSS and JavaScript Certified Associate – CareerIT, 2025 
+•     JAVA Certification Associate – CareerIT, 2025 
+Full Stack Java Development CareerIT Institute    
+ 
+Certifications/Training 
+•  Technologies Used: HTML5, CSS3, JavaScript, Bootstrap. 
+•  Participated in UI enhancements and responsive component development. 
+•  Assisted in frontend implementation and improving overall user experience. 
+•  Worked with a development team to create a modern and responsive agriculture investment platform. 
+FarmVest Website (Team Project)                                                                                                                                      farmvest.in 
+•  Technologies Used: React.js, Firebase, HTML5, CSS3, JavaScript, Bootstrap. 
+•  Improved dashboard responsiveness and optimized frontend performance. 
+•  Created interactive UI sections for improved navigation and user experience. 
+•  Integrated Firebase for authentication, database management, and real-time updates. 
+•   Implemented reusable React.js components for scalable frontend architecture. 
+•   Developed a responsive dashboard interface for managing and monitoring platform activities. 
+ 
+Stage Dashboard - Nature’s True Harvest (Individual Project)                       stagedashboard.naturestrueharvest.in  
+•  Technologies Used: HTML5, CSS3, JavaScript, Bootstrap. 
+•  Worked on optimizing layouts for better performance across devices. 
+•  Contributed to frontend development and responsive web design implementation. 
+•  Collaborated with team members to build responsive landing pages and interactive UI sections. 
+Landify Website (Team Project)                                                                                                                                              landify.in 
+----------------Page (1) Break----------------

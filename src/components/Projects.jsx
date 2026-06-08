@@ -1,0 +1,83 @@
+import React from 'react';
+import { ExternalLink, Code } from 'lucide-react';
+
+const Projects = () => {
+  const projects = [
+    {
+      title: "Stage Dashboard - Nature's True Harvest",
+      role: "Individual Project",
+      description: "Developed a responsive dashboard interface for managing and monitoring platform activities. Integrated Firebase for authentication, database management, and real-time updates.",
+      tech: ["React.js", "Firebase", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://stagedashboard.naturestrueharvest.in",
+    },
+    {
+      title: "Nature's True Harvest Website",
+      role: "Individual Project",
+      description: "Designed and developed a responsive agriculture-based website for showcasing products and services with clean UI design and mobile-friendly layouts.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://naturestrueharvest.in",
+    },
+    {
+      title: "FarmVest Website",
+      role: "Team Project",
+      description: "Worked with a development team to create a modern and responsive agriculture investment platform. Participated in UI enhancements and responsive component development.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://farmvest.in",
+    },
+    {
+      title: "Landify Website",
+      role: "Team Project",
+      description: "Collaborated with team members to build responsive landing pages and interactive UI sections. Worked on optimizing layouts for better performance across devices.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://landify.in",
+    }
+  ];
+
+  return (
+    <section id="projects" className="py-24 px-6 relative">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-4 text-center text-slate-800">
+          Projects
+        </h2>
+        <p className="text-center text-slate-500 mb-16 max-w-2xl mx-auto">
+          A selection of personal and team projects showcasing my frontend development skills.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="glass-card group overflow-hidden flex flex-col animate-slide-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <div className="p-8 flex-grow flex flex-col bg-slate-50 group-hover:bg-white transition-colors duration-300">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-2xl font-bold text-slate-800 group-hover:text-primary transition-colors">{project.title}</h3>
+                  <a href={project.link} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                    <ExternalLink size={24} />
+                  </a>
+                </div>
+
+                <span className="text-sm font-semibold text-primary mb-4">{project.role}</span>
+
+                <p className="text-slate-600 mb-6 flex-grow leading-relaxed">
+                  {project.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2 mt-auto">
+                  {project.tech.map((tech, i) => (
+                    <span key={i} className="text-xs font-medium text-slate-700 bg-slate-200 px-3 py-1 rounded-full">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
