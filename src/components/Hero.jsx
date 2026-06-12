@@ -33,17 +33,6 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="flex items-center justify-center md:justify-start gap-6 text-slate-500">
-            <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
-              <GithubIcon size={24} /> <span className="hidden sm:inline">GitHub</span>
-            </a>
-            <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
-              <User size={24} /> <span className="hidden sm:inline">LinkedIn</span>
-            </a>
-            <a href="mailto:lavanyagunje77@gmail.com" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
-              <Mail size={24} /> <span className="hidden sm:inline">Email</span>
-            </a>
-          </div>
         </div>
 
         {/* Right Content - Image with concentric circles from design */}
