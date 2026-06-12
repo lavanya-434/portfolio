@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Code } from 'lucide-react';
+import { ExternalLink, Code, Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -9,6 +9,7 @@ const Projects = () => {
       description: "Developed a responsive dashboard interface for managing and monitoring platform activities. Integrated Firebase for authentication, database management, and real-time updates.",
       tech: ["React.js", "Firebase", "Tailwind CSS", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
       link: "https://stagedashboard.naturestrueharvest.in",
+      github: "https://github.com/lavanya-434",
     },
     {
       title: "Nature's True Harvest Website",
@@ -16,6 +17,7 @@ const Projects = () => {
       description: "Designed and developed a responsive agriculture-based website for showcasing products and services with clean UI design and mobile-friendly layouts.",
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
       link: "https://naturestrueharvest.in",
+      github: "https://github.com/lavanya-434",
     },
     {
       title: "FarmVest Website",
@@ -23,6 +25,7 @@ const Projects = () => {
       description: "Worked with a development team to create a modern and responsive agriculture investment platform. Participated in UI enhancements and responsive component development.",
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
       link: "https://farmvest.in",
+      github: "https://github.com/lavanya-434",
     },
     {
       title: "Landify Website",
@@ -30,6 +33,7 @@ const Projects = () => {
       description: "Collaborated with team members to build responsive landing pages and interactive UI sections. Worked on optimizing layouts for better performance across devices.",
       tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
       link: "https://landify.in",
+      github: "https://github.com/lavanya-434",
     }
   ];
 
@@ -53,9 +57,16 @@ const Projects = () => {
               <div className="p-8 flex-grow flex flex-col bg-slate-50 group-hover:bg-white transition-colors duration-300">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-2xl font-bold text-slate-800 group-hover:text-primary transition-colors">{project.title}</h3>
-                  <a href={project.link} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
-                    <ExternalLink size={24} />
-                  </a>
+                  <div className="flex gap-4">
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                        <Github size={24} />
+                      </a>
+                    )}
+                    <a href={project.link} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                      <ExternalLink size={24} />
+                    </a>
+                  </div>
                 </div>
 
                 <span className="text-sm font-semibold text-primary mb-4">{project.role}</span>
