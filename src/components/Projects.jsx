@@ -8,8 +8,7 @@ const Projects = () => {
       title: "Stage Dashboard - Nature's True Harvest",
       role: "Individual Project",
       description: [
-        "Developed a responsive dashboard application using React.js, Tailwind CSS, and Firebase.",
-        "Implemented real-time database management and authentication features.",
+        "Built a responsive dashboard application using React, Tailwind CSS, and Firebase, supporting real-time data management and user authentication with optimized component architecture.",
         "✔ Reduced page load time by 30% through optimized state management.",
         "✔ Achieved 100% responsive design compatibility across devices."
       ],
@@ -21,8 +20,7 @@ const Projects = () => {
       title: "Nature's True Harvest Website",
       role: "Individual Project",
       description: [
-        "Designed and developed a responsive e-commerce agriculture website using HTML5, CSS3, and JavaScript.",
-        "Implemented product filtering, dynamic layouts, and mobile-first design principles.",
+        "Built a responsive e-commerce agriculture website using JavaScript and Bootstrap, supporting product filtering and dynamic layouts with optimized component architecture.",
         "✔ Improved Lighthouse Performance Score to 95+ through image optimization.",
         "✔ Enhanced user experience with modern UI components and smooth transitions."
       ],
@@ -34,8 +32,7 @@ const Projects = () => {
       title: "FarmVest Website",
       role: "Team Project",
       description: [
-        "Collaborated with a team to build a responsive agriculture investment platform using JavaScript and Bootstrap.",
-        "Developed complex UI components and integrated REST APIs for real-time data fetching.",
+        "Built a responsive agriculture investment platform using JavaScript and Bootstrap, integrating REST APIs for real-time data fetching with optimized component architecture.",
         "✔ Developed responsive layouts for mobile, tablet, and desktop devices.",
         "✔ Streamlined cross-browser compatibility resolving CSS inconsistencies."
       ],
@@ -47,8 +44,7 @@ const Projects = () => {
       title: "Landify Website",
       role: "Team Project",
       description: [
-        "Built dynamic, responsive landing pages and interactive UI sections optimizing for lead generation.",
-        "Worked on optimizing layouts for better performance and accessibility (WCAG).",
+        "Built dynamic, responsive landing pages and interactive UI sections optimizing for lead generation and accessibility (WCAG) with scalable component architecture.",
         "✔ Increased overall page accessibility scores to 100 on Chrome DevTools.",
         "✔ Integrated scalable CSS architecture for easy maintenance."
       ],
