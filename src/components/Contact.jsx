@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, MapPin, Phone, User } from 'lucide-react';
+import { Mail, MapPin, Phone, User, Github } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -45,6 +45,18 @@ const Contact = () => {
                   <p className="text-sm text-slate-500 font-medium">LinkedIn</p>
                   <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="font-medium hover:text-primary transition-colors break-all">
                     linkedin.com/in/lavanyagunje-a57029301
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4 text-slate-600">
+                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center text-primary shrink-0">
+                  <Github size={24} />
+                </div>
+                <div>
+                  <p className="text-sm text-slate-500 font-medium">GitHub</p>
+                  <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="font-medium hover:text-primary transition-colors break-all">
+                    github.com/lavanya-434
                   </a>
                 </div>
               </div>
