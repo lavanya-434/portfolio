@@ -2,27 +2,6 @@ import React, { useState } from 'react';
 import { Mail, MapPin, Phone, User } from 'lucide-react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.id]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { name, email, message } = formData;
-    const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-    window.location.href = `mailto:lavanyagunje77@gmail.com?subject=${subject}&body=${body}`;
-  };
-
   return (
     <section id="contact" className="py-24 px-6 relative">
       <div className="max-w-4xl mx-auto">
@@ -82,16 +61,20 @@ const Contact = () => {
             </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
+          <form action="https://formsubmit.co/lavanyagunje77@gmail.com" method="POST" className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl font-bold mb-6 text-slate-800">Send a Message</h3>
+            
+            {/* Optional FormSubmit configuration fields */}
+            <input type="hidden" name="_subject" value="New message from portfolio website!" />
+            <input type="hidden" name="_captcha" value="false" />
+
             <div className="space-y-4">
               <div>
                 <label htmlFor="name" className="text-sm font-medium text-slate-600 ml-1">Name</label>
                 <input
                   type="text"
                   id="name"
-                  value={formData.name}
-                  onChange={handleChange}
+                  name="name"
                   required
                   placeholder="Your Name"
                   className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all"
@@ -102,8 +85,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  value={formData.email}
-                  onChange={handleChange}
+                  name="email"
                   required
                   placeholder="your@email.com"
                   className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all"
@@ -113,9 +95,8 @@ const Contact = () => {
                 <label htmlFor="message" className="text-sm font-medium text-slate-600 ml-1">Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows="4"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                   placeholder="How can I help you?"
                   className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all resize-none"
