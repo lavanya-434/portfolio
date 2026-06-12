@@ -39,7 +39,7 @@ const Navbar = () => {
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={20} />
             </a>
-            <a href="mailto:lavanyagunje77@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
+            <a href="mailto:lavanyagunje4@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
               <Mail size={20} />
             </a>
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={24} />
             </a>
-            <a href="mailto:lavanyagunje77@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
+            <a href="mailto:lavanyagunje4@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
               <Mail size={24} />
             </a>
           </div>

@@ -19,8 +19,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 font-medium">Email</p>
-                  <a href="mailto:lavanyagunje77@gmail.com" className="font-medium hover:text-primary transition-colors">
-                    lavanyagunje77@gmail.com
+                  <a href="mailto:lavanyagunje4@gmail.com" className="font-medium hover:text-primary transition-colors">
+                    lavanyagunje4@gmail.com
                   </a>
                 </div>
               </div>
@@ -61,13 +61,8 @@ const Contact = () => {
             </div>
           </div>
 
-          <form action="https://formsubmit.co/lavanyagunje77@gmail.com" method="POST" className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
+          <form action="https://formspree.io/lavanyagunje4@gmail.com" method="POST" className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl font-bold mb-6 text-slate-800">Send a Message</h3>
-            
-            {/* Optional FormSubmit configuration fields */}
-            <input type="hidden" name="_subject" value="New message from portfolio website!" />
-            <input type="hidden" name="_captcha" value="false" />
-
             <div className="space-y-4">
               <div>
                 <label htmlFor="name" className="text-sm font-medium text-slate-600 ml-1">Name</label>
@@ -85,7 +80,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="_replyto"
                   required
                   placeholder="your@email.com"
                   className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all"
