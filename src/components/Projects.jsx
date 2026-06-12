@@ -114,19 +114,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* GitHub Activity Section */}
-        <div className="mt-24 max-w-4xl mx-auto text-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
-          <h3 className="text-3xl font-bold mb-8 text-slate-800">GitHub Activity</h3>
-          <div className="glass-card p-6 bg-white inline-block border border-slate-200 hover:shadow-lg transition-shadow">
-            <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer">
-              <img 
-                src="https://github-readme-stats.vercel.app/api?username=lavanya-434&show_icons=true&theme=transparent&hide_border=true&title_color=16a34a&icon_color=16a34a&text_color=334155" 
-                alt="Lavanya's GitHub Stats" 
-                className="max-w-full h-auto"
-              />
-            </a>
-          </div>
-        </div>
+
       </div>
     </section>
   );
