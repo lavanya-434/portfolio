@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code, User, Mail } from 'lucide-react';
+import { Menu, X, Code, User, Mail, Github } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass-card border-x-0 border-t-0 rounded-none py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#home" className="text-2xl font-bold text-primary">
-          Lavanya<span className="text-foreground">.</span>
+          Lavanya<span className="text-foreground"></span>
         </a>
 
         {/* Desktop Nav */}
@@ -36,10 +36,13 @@ const Navbar = () => {
             </a>
           ))}
           <div className="flex items-center gap-4 ml-4">
+            <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
+              <Github size={20} />
+            </a>
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={20} />
             </a>
-            <a href="mailto:lavanyagunje4@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
+            <a href="mailto:lavanyagunje77@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
               <Mail size={20} />
             </a>
           </div>
@@ -68,10 +71,13 @@ const Navbar = () => {
             </a>
           ))}
           <div className="flex items-center gap-6 mt-4 pt-4 border-t border-slate-100">
+            <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
+              <Github size={24} />
+            </a>
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={24} />
             </a>
-            <a href="mailto:lavanyagunje4@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
+            <a href="mailto:lavanyagunje77@gmail.com" className="text-slate-500 hover:text-primary transition-colors">
               <Mail size={24} />
             </a>
           </div>
