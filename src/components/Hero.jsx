@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Download, User, Mail } from 'lucide-react';
+import GithubIcon from './GithubIcon';
 import photo from '../assets/photo.jpeg';
 
 const Hero = () => {
@@ -18,17 +19,29 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
-            A Results-driven Frontend Developer with a strong foundation in web development and practical experience in creating responsive applications.
+            React Developer & Frontend Engineer specializing in Responsive Web Development, Performance Optimization, and scalable UI Component Development.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-            <a href="#projects" className="group flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-md hover:shadow-lg">
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mb-8">
+            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="group flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-md hover:shadow-lg">
+              <Download size={20} />
+              Download Resume
+            </a>
+            <a href="#projects" className="group flex items-center gap-2 px-8 py-4 rounded-lg font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors shadow-sm">
               View My Work
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
-            <a href="#contact" className="group flex items-center gap-2 px-8 py-4 rounded-lg font-semibold bg-white text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors shadow-sm">
-              <Download size={20} />
-              Contact Me
+          </div>
+
+          <div className="flex items-center justify-center md:justify-start gap-6 text-slate-500">
+            <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
+              <GithubIcon size={24} /> <span className="hidden sm:inline">GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
+              <User size={24} /> <span className="hidden sm:inline">LinkedIn</span>
+            </a>
+            <a href="mailto:lavanyagunje77@gmail.com" className="hover:text-primary transition-colors flex items-center gap-2 font-medium">
+              <Mail size={24} /> <span className="hidden sm:inline">Email</span>
             </a>
           </div>
         </div>
