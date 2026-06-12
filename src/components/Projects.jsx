@@ -1,5 +1,6 @@
 import React from 'react';
-import { ExternalLink, Code, Github } from 'lucide-react';
+import { ExternalLink, Code } from 'lucide-react';
+import GithubIcon from './GithubIcon';
 
 const Projects = () => {
   const projects = [
@@ -60,7 +61,7 @@ const Projects = () => {
                   <div className="flex gap-4">
                     {project.github && (
                       <a href={project.github} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
-                        <Github size={24} />
+                        <GithubIcon size={24} />
                       </a>
                     )}
                     <a href={project.link} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">

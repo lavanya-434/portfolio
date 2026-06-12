@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code, User, Mail, Github } from 'lucide-react';
+import { Menu, X, Code, User, Mail } from 'lucide-react';
+import GithubIcon from './GithubIcon';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
           ))}
           <div className="flex items-center gap-4 ml-4">
             <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
-              <Github size={20} />
+              <GithubIcon size={20} />
             </a>
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={20} />
@@ -72,7 +73,7 @@ const Navbar = () => {
           ))}
           <div className="flex items-center gap-6 mt-4 pt-4 border-t border-slate-100">
             <a href="https://github.com/lavanya-434" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
-              <Github size={24} />
+              <GithubIcon size={24} />
             </a>
             <a href="https://linkedin.com/in/lavanyagunje-a57029301" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-primary transition-colors">
               <User size={24} />

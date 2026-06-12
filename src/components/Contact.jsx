@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Mail, MapPin, Phone, User, Github } from 'lucide-react';
+import { Mail, MapPin, Phone, User } from 'lucide-react';
+import GithubIcon from './GithubIcon';
 
 const Contact = () => {
   return (
@@ -51,7 +52,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-4 text-slate-600">
                 <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center text-primary shrink-0">
-                  <Github size={24} />
+                  <GithubIcon size={24} />
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 font-medium">GitHub</p>
