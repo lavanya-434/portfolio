@@ -15,7 +15,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-foreground">
             Hi, I'm <br className="hidden md:block" />
-            <span className="relative inline-block text-primary transition-colors duration-500 hover:text-white z-10 before:absolute before:-inset-2 before:bg-primary before:-z-10 before:scale-x-0 before:origin-left hover:before:scale-x-100 before:transition-transform before:duration-500 before:ease-out before:rounded-lg cursor-default">Lavanya Gunje</span>
+            <span className="relative inline-block text-primary transition-all duration-700 hover:text-green-400 hover:drop-shadow-[0_0_12px_rgba(74,222,128,0.5)] cursor-default after:absolute after:-bottom-2 after:left-0 after:h-[4px] after:w-full after:origin-center after:scale-x-0 hover:after:scale-x-100 after:bg-green-400 after:transition-transform after:duration-700 after:ease-out after:rounded-full">Lavanya Gunje</span>
           </h1>
 
           <p className="text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
