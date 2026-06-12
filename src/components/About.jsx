@@ -4,7 +4,7 @@ import { CheckCircle2 } from 'lucide-react';
 const About = () => {
   const skills = {
     Frontend: ["React.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Web Design", "Component-Based Architecture", "State Management"],
-    Tools: ["Git", "GitHub", "VS Code", "Figma", "Chrome DevTools"],
+    Tools: ["Git", "GitHub", "VS Code", "Figma", "vercel"],
     Concepts: ["REST API Integration", "API Consumption", "JSON", "Async JavaScript", "Lazy Loading", "Code Splitting", "Accessibility (WCAG)", "Cross-Browser Compatibility", "Performance Optimization", "Mobile-First Design"]
   };
 

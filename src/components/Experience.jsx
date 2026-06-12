@@ -21,7 +21,7 @@ const Experience = () => {
                 <h4 className="text-xl text-primary font-medium mt-1">Markwave.ai</h4>
               </div>
               <span className="text-slate-500 font-medium mt-2 md:mt-0 bg-white px-4 py-1 rounded-full shadow-sm">
-                May 2026
+                June 2026
               </span>
             </div>
 
