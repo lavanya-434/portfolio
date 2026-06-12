@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form action="https://formspree.io/lavanyagunje4@gmail.com" method="POST" className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
+          <form action="https://formspree.io/f/mkoaqynw" method="POST" className="glass-card p-8 animate-slide-up bg-white" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl font-bold mb-6 text-slate-800">Send a Message</h3>
             <div className="space-y-4">
               <div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  name="_replyto"
+                  name="email"
                   required
                   placeholder="your@email.com"
                   className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition-all"
