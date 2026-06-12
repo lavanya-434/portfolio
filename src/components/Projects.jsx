@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Stage Dashboard - Nature's True Harvest",
       role: "Individual Project",
       description: "Developed a responsive dashboard interface for managing and monitoring platform activities. Integrated Firebase for authentication, database management, and real-time updates.",
-      tech: ["React.js", "Firebase", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      tech: ["React.js", "Firebase", "Tailwind CSS", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
       link: "https://stagedashboard.naturestrueharvest.in",
     },
     {
