@@ -17,18 +17,6 @@ const About = () => {
     "Convert Figma designs into production-ready code"
   ];
 
-  const experience = [
-    {
-      role: "Frontend Developer",
-      duration: "2023–Present",
-      tasks: [
-        "Built responsive React applications",
-        "Integrated REST APIs",
-        "Collaborated with designers and stakeholders"
-      ]
-    }
-  ];
-
   const education = [
     {
       degree: "Bachelor of Technology (ECE)",
@@ -119,24 +107,6 @@ const About = () => {
           </div>
 
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <h3 className="text-2xl font-bold mb-6 text-primary">Experience</h3>
-            <div className="space-y-6 mb-12">
-              {experience.map((exp, index) => (
-                <div key={index} className="glass-card p-6 border-l-4 border-l-primary bg-white">
-                  <h4 className="text-xl font-semibold text-slate-800">{exp.role}</h4>
-                  <p className="text-sm font-semibold text-primary mt-1">{exp.duration}</p>
-                  <ul className="mt-4 space-y-2">
-                    {exp.tasks.map((task, i) => (
-                      <li key={i} className="flex items-start gap-2 text-slate-600 text-sm">
-                        <span className="text-primary font-bold mt-0.5">•</span>
-                        {task}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-
             <h3 className="text-2xl font-bold mb-6 text-primary">Education</h3>
             <div className="space-y-6 mb-12">
               {education.map((edu, index) => (

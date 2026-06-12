@@ -17,7 +17,7 @@ const Experience = () => {
           <div className="ml-8 md:ml-12">
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
               <div>
-                <h3 className="text-2xl font-bold text-slate-800">Frontend Developer Intern</h3>
+                <h3 className="text-2xl font-bold text-slate-800">Frontend Developer Employee</h3>
                 <h4 className="text-xl text-primary font-medium mt-1">Markwave.ai</h4>
               </div>
               <span className="text-slate-500 font-medium mt-2 md:mt-0 bg-white px-4 py-1 rounded-full shadow-sm">
