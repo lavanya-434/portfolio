@@ -15,7 +15,17 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-foreground">
             Hi, I'm <br className="hidden md:block" />
-            <span className="inline-block text-primary transition-all duration-1000 ease-in-out hover:text-green-300 hover:scale-110 hover:drop-shadow-[0_0_25px_rgba(34,197,94,0.8)] cursor-default">Lavanya Gunje</span>
+            <span className="inline-block group cursor-default">
+              {"Lavanya Gunje".split('').map((char, index) => (
+                <span
+                  key={index}
+                  className="inline-block text-primary transition-all duration-300 group-hover:text-green-400 group-hover:-translate-y-2 group-hover:drop-shadow-[0_0_15px_rgba(74,222,128,0.8)]"
+                  style={{ transitionDelay: `${index * 50}ms` }}
+                >
+                  {char === ' ' ? '\u00A0' : char}
+                </span>
+              ))}
+            </span>
           </h1>
 
           <p className="text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
